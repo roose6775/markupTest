@@ -1,0 +1,47 @@
+@import 'header.css';
+@import 'world-map.css';
+@import 'aside-section.css';
+@import 'table-section.css';
+
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url(/_fonts/font-oswald/oswald-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url(/_fonts/font-oswald/oswald-bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url(/_fonts/font-oswald/oswald-light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(/_fonts/font-sourcesanspro/sourcesanspro-regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.body {
+    flex-direction: column;
+}
+
+.content-body {
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    flex-direction: row;
+    margin-bottom: 113px;
+    margin-left: 129px;
+}
+

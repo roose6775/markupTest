@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_styles/style.css"/>
+    <link rel="stylesheet" href="_font-awesome/font-awesome-4.6.3/css/font-awesome.min.css">
+    <script src="_scripts/script.js" async="async"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="flex-container sharepoint-header">
+            <figure><a href="/"><img src="_img/sharepoint-logo.png" height="25" width="100"/></a></figure>
+            <div class="flex-container user-info">
+                <ul class="links-tabs">
+                        <li>my sites</li>
+                        <li>yammer</li>
+                        <li>oneDrive</li>
+                        <li>sites</li>
+                </ul>
+                <div class="flex-container user-panel">
+                    <ul class="user-tabs">
+                        <li>Elizaveta Eliseeva</li>
+                        <li><i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    </ul>
+                    <ul class="user-tabs-icons">
+                        <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-question-circle" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container user-header">
+            <ul class="flex-container main-tabs">
+                <li>browse</li>
+                <li>files</li>
+                <li>library</li>
+            </ul>
+            <ul class="action-tabs">
+                <li><i class="fa fa-share-alt" aria-hidden="true"></i>share</li>
+                <li><i class="fa fa-star-o" aria-hidden="true"></i>follow</li>
+                <li><i class="fa fa-pencil" aria-hidden="true"></i>edit</li>
+                <li><i class="fa fa fa-arrows-alt" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="flex-container epam-header">
+            <figure><img src="_img/epam-logo.png" height="31" width="87"/></figure>
+            <span>office space management portal</span>
+        </div>
+    </header>
+
+    <section class="flex-container content-body">
+        <section class = "flex-container map-container">
+            <div class="flex-container stats">
+                <span class="number-of-countries">19</span>
+                <span class="stats-countries">Countries Worldwide</span>
+                <ul class="stats-list">
+                    <li>
+                        <div><i class="fa fa-users" aria-hidden="true"></i></div>
+                        15000+ employees
+                    </li>
+                    <li>
+                        <div><i class="fa fa-hourglass-o" aria-hidden="true"></i></div>
+                        30 years<br/>in business
+                    </li>
+                </ul>
+            </div>
+            <div class="world-map">
+                <div class="markers marker-rus"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-belarus"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-pol"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-crimea"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-china"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-usa-south"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="markers marker-usa-north"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div><img src="_img/map.png" width="1052" height="520"></div>
+            </div>
+        </section>
+
+        <section class="flex-container info">
+            <aside>
+                <form class="search-input">
+                    <input placeholder="Search for a person">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </form>
+                <div>
+                    <button class="mov-request-button">
+                        <div><i class="fa fa-arrows-alt" aria-hidden="true"></i></div>
+                        <div>movement request</div>
+                    </button>
+                    <button class="available-place-button">
+                        <div><i class="fa fa-street-view" aria-hidden="true"></i></div>
+                        <div>look for<br/> available place</div>
+                    </button>
+                </div>
+                <section class="office-info">
+                    <header class="office-info-header">my office</header>
+                    <div class="office-info-body">
+                        Russia <i class="fa fa-angle-right"></i>
+                        Saint-Petersburg <i class="fa fa-angle-right"></i>
+                        Nab.Chyornoy rechki <i class="fa fa-angle-right"></i>
+                        <br/>Floors:<br/>
+                        <ul>
+                            <li class="office-floor">1</li>
+                            <li class="office-floor">2</li>
+                            <li class="office-floor">3</li>
+                            <li class="office-floor">4</li>
+                            <li class="office-floor">...</li>
+                            <li class="office-floor">25</li>
+                        </ul>
+                        Unit: 654<br/>
+                        Number of room: 654
+                    </div>
+                </section>
+            </aside>
+
+            <section class="requests-units">
+                <header>
+                    <ul>
+                           <li class="tab-link"><a href="#requests" onclick="openTab(0, 'requests')">my requests</a></li><!--
+                        --><li class="tab-link"><a href="#rec-viewed-units" onclick="openTab(1, 'rec-viewed-units')">recently viewed units</a></li><!--
+                        --><li class="tab-link"><a href="#my-units" onclick="openTab(2, 'my-units')">my units</a></li>
+                    </ul>
+                </header>
+                <div class="tab" id="requests">
+                <table class="requests-units-table">
+                    <thead>
+                    <tr><th>request</th><th>date <i class="fa fa-chevron-down" aria-hidden="true"></i></th><th>status</th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    <tr><td>Praesent felis nibh, faucibus et interdum ut</td><td>07/24/2015</td><td><div class="rejected-label">Rejected</div></td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="tab" id="rec-viewed-units">
+                    (no content yet)
+                </div>
+                <div class="tab" id="my-units">
+                    (no content yet)
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+</html>

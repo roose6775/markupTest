@@ -1,0 +1,139 @@
+body > header {
+    position: relative;
+    height: 122px;
+    min-width: 700px;
+}
+
+.sharepoint-header {
+    background-color: #39c2d7;
+    height: 28px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sharepoint-header > figure {  margin: 5px 0 0 3px;  }
+
+.user-info {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*delete flex here*/
+.user-panel {
+    background-color: #eee;
+    padding-left: 14px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-tabs, .user-tabs-icons {  padding: 0;  }
+
+.user-tabs {  font-size: 14px;  }
+
+.user-tabs li{
+    margin: auto 7px;
+    color: #464547;
+}
+
+.user-tabs-icons {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.user-tabs-icons li{
+    font-size: 18px;
+    margin: auto 4px;
+    color: #787779;
+}
+
+.user-tabs-icons li:hover{  color: #313032;  }
+
+.user-header {
+    background-color: #eee;
+    height: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-tabs {
+    margin-left: 17px;
+    font-size: 10px;
+    color: #464547;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.main-tabs li {
+    padding: 4px 8px;
+    margin: auto 3px;
+}
+
+.main-tabs li:hover {  color: #3ac2d7;  }
+
+.main-tabs :first-child {
+    padding: 4px 8px;
+    color: white;
+    background-color: #3ac2d7;
+}
+
+.main-tabs :first-child:hover {
+    background-color: #2a7c91;
+    color: white;
+}
+
+.action-tabs {
+    font-size: 14px;
+    color: #999;
+}
+
+.action-tabs li {
+    margin: auto 9px auto 4px;
+    text-transform: uppercase;
+}
+
+.action-tabs li:hover, .action-tabs i:hover {  color: #313032;  }
+
+.action-tabs li i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.epam-header {
+    background-color: #464547;
+    height: 62px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sharepoint-header, .epam-header {  padding-left: 20px  }
+
+.epam-header figure {  margin: 10px 0 0 0;  }
+
+.epam-header > span {
+    font-size: 21px;
+    font-family: 'Oswald Regular', sans-serif;
+    margin-left: 27px;
+    color: #7ae6f7;
+    text-transform: uppercase;
+}
+
+.links-tabs {
+    margin: 0 22px;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.links-tabs li {  margin: auto 10px;  }
+
+.links-tabs li,.main-tabs li,.action-tabs li,.user-tabs li, .user-tabs-icons li {  display:inline-block;  }
+
+.flex-container {  display: flex;  }

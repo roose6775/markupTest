@@ -1,0 +1,101 @@
+.map-container {
+    flex-direction: row;
+    margin-bottom: 11px;
+}
+
+.world-map {
+    margin: 25px auto auto -33px;
+    position: relative;
+}
+
+.markers {
+    position: absolute;
+    color: #3ac2d7;
+    font-size: 31px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.markers:hover {
+    color: #46dbee;
+}
+
+.marker-rus {
+    left: 583px;
+    top: 96px;
+}
+
+.marker-belarus {
+    left: 556px;
+    top: 130px;
+}
+
+.marker-pol {
+    left: 538px;
+    top: 143px;
+}
+
+.marker-crimea {
+    left: 580px;
+    top: 156px;
+}
+
+.marker-china {
+    left: 846px;
+    top: 169px;
+}
+
+.marker-usa-south {
+    left: 175px;
+    top: 169px;
+}
+
+.marker-usa-north {
+    left: 234px;
+    top: 195px;
+}
+
+.stats {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e0e0e0;
+    margin: 200px 0 22px 45px;
+}
+
+.stats-countries {
+    padding-left: 24px;
+    margin-top: -31px;
+    font-family: 'Oswald Regular', sans-serif;
+    font-size: 21px;
+}
+
+.stats-list {
+    margin: 0;
+    padding: 0 0 0 24px;
+}
+
+.stats-list div{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    line-height: 28px;
+    margin: 15px 25px 7px 24px;
+}
+
+.stats-list li {
+    width: 75px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.number-of-countries {
+    font-size: 191px;
+    font-family: 'Oswald Regular', sans-serif;
+}
+
+
+

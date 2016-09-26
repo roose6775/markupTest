@@ -1,0 +1,112 @@
+body aside {
+    margin: 0 20px 0 70px;
+    min-width: 400px;
+    white-space:nowrap;
+}
+
+.search-input {
+    width: 372px;
+    height: 15px;
+    border: 1px solid #ccc;
+    color: #5e5e5e;
+    font-size: 13px;
+    padding: 12px 15px 12px 12px;
+}
+
+.search-input input {
+    border: none;
+    width: 345px;
+}
+
+.search-input input:focus {
+    outline: none;
+}
+
+.search-input i {
+    color: #ababab;
+    float: right;
+    font-size: 17px;
+}
+
+.mov-request-button, .available-place-button {
+    border: none;
+    width: 196px;
+    height: 60px;
+    margin: 10px auto;
+    color: white;
+    font-family: 'Oswald Regular', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mov-request-button div, .available-place-button div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mov-request-button i, .available-place-button i {
+    font-size: 36px;
+    margin-right: 9px;
+}
+
+.mov-request-button {
+    background-color: #a3c644;
+    margin-right: 6px;
+}
+
+.mov-request-button:hover {  background-color: #6d8027;  }
+
+.available-place-button {  background-color: #937ebd;  }
+
+.available-place-button:hover {  background-color: #6d6784;  }
+
+.office-info {
+    width: 400px;
+    height: 223px;
+    border: 1px solid #ccc;
+}
+
+.office-info-header {
+    width: inherit;
+    height: 40px;
+    background-color: #999;
+    line-height: 40px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: "Oswald Regular", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.office-info-body {
+    margin: 10px 66px 60px 5px;
+    color: #666;
+    padding: 4px 4px 10px 10px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.office-info-body i {  margin: auto 4px;  }
+
+.office-info-body ul li {  display: inline-block;  }
+
+.office-info-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.office-info-body ul :first-child {  margin-left: 0;  }
+
+.office-floor {
+    height: 18px;
+    width: 18px;
+    font-family: "Oswald Regular", sans-serif;
+    font-size: 12px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    margin: auto 2px;
+    text-align: center;
+}
+
+
