@@ -11,6 +11,29 @@ function openTab(evt, tabName) {
         tablinks[i].className = tablinks[i].className.replace(" requests-units-tab-active", "");
     }
 
+    if (tabName === "rec-viewed-units") {
+        getRecentlyViewedUnits();
+
+    }
+
     document.getElementById(tabName).style.display = "block";
     tablinks[evt].className += " requests-units-tab-active";
+}
+
+function getRecentlyViewedUnits() {
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.status === 200) {
+            let recentlyViewedUnits = JSON.parse(xhr.responseText);
+            let element = document.getElementById("recently-viewed");
+            element.innerHTML = "";
+            recentlyViewedUnits.forEach((el) => {
+                let div = document.createElement('div');
+                div.innerHTML = `${el.requestName} : ${el.status}`;
+                element.appendChild(div);
+            });
+        }
+    };
+    xhr.open('GET','_resources/recentlyViewed.json',false);
+    xhr.send();
 }
